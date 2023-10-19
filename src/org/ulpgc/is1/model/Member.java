@@ -2,7 +2,7 @@ package org.ulpgc.is1.model;
 
 import java.util.ArrayList;
 
-public class Member {
+public class Member extends Customer {
     public ArrayList<Address> address;
     public int point;
 
