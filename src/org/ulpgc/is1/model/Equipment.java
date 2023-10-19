@@ -8,7 +8,6 @@ public class Equipment extends Extra {
     }
 
     public String getName() {
-        //getter
         return name;
     }
 
