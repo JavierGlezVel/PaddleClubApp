@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Arreglo herencia en Member.">
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Arreglo de Equipment, Umpire y Extra.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Extra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Extra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Umpire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Umpire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697650516952</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Arreglo de Equipment, Umpire y Extra.">
+      <option name="closed" value="true" />
+      <created>1697717222652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697717222652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +177,7 @@
     <MESSAGE value="Getter y Setter de Umpire." />
     <MESSAGE value="Implementación de Member." />
     <MESSAGE value="Arreglo herencia en Member." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglo herencia en Member." />
+    <MESSAGE value="Arreglo de Equipment, Umpire y Extra." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo de Equipment, Umpire y Extra." />
   </component>
 </project>
