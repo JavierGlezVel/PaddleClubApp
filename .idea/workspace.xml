@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación de Equipment y atributo de getName.">
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación de Address.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/CourtType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/CourtType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Alberto.develop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alberto.develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +54,10 @@
       <option name="presentableId" value="Default" />
       <updated>1697630288481</updated>
       <workItem from="1697630291089" duration="1000" />
-      <workItem from="1697630862278" duration="339000" />
+      <workItem from="1697630862278" duration="2026000" />
+      <workItem from="1697637888222" duration="3363000" />
+      <workItem from="1697641684156" duration="416000" />
+      <workItem from="1697704746890" duration="1908000" />
     </task>
     <task id="LOCAL-00001" summary="rama de Alberto">
       <option name="closed" value="true" />
@@ -71,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697631081582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementación de Address.">
+      <option name="closed" value="true" />
+      <created>1697631531020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697631531020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rama de Alberto" />
     <MESSAGE value="Implementación de Equipment y atributo de getName." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementación de Equipment y atributo de getName." />
+    <MESSAGE value="Implementación de Address." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementación de Address." />
   </component>
 </project>
