@@ -4,11 +4,13 @@ public class Umpire extends Extra {
     public String name;
     public String surname;
 
-    public Umpire (String name, String surname) {
+    public Umpire(String name, String surname, int price) {
+        super(price);
         this.name = name;
         this.surname = surname;
     }
 
+    @Override
     public String getName() {
         return name;
     }
