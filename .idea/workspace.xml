@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación de isValid() en NIF.">
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación de Costumer.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Reservation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1697630291089" duration="2936000" />
       <workItem from="1697646786560" duration="3558000" />
       <workItem from="1697706021033" duration="651000" />
-      <workItem from="1697734177935" duration="2552000" />
+      <workItem from="1697734177935" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit (Creación de Clases).">
       <option name="closed" value="true" />
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697735610961</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementación de Costumer.">
+      <option name="closed" value="true" />
+      <created>1697736939941</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697736939941</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +215,7 @@
     <MESSAGE value="Arreglo de Member." />
     <MESSAGE value="Implementación de NIF." />
     <MESSAGE value="Implementación de isValid() en NIF." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementación de isValid() en NIF." />
+    <MESSAGE value="Implementación de Costumer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementación de Costumer." />
   </component>
 </project>

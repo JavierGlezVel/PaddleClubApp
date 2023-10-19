@@ -1,5 +1,7 @@
 package org.ulpgc.is1.model;
 
+import java.util.ArrayList;
+
 public class Court {
     public String name;
     public int price;
