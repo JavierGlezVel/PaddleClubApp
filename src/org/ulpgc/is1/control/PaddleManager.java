@@ -3,27 +3,63 @@ package org.ulpgc.is1.control;
 import org.ulpgc.is1.model.Court;
 import org.ulpgc.is1.model.Customer;
 import org.ulpgc.is1.model.Reservation;
+import java.util.ArrayList;
 
 public class PaddleManager {
 
-    public void addCustomer(Customer cliente1) {
+    private ArrayList<Court> courts;
+    private ArrayList<Customer> customers;
+    private ArrayList<Reservation> reservations;
+
+    public PaddleManager() {
+
+        courts = new ArrayList<>();
+        customers = new ArrayList<>();
+        reservations = new ArrayList<>();
     }
 
-    public void addCourt(Court pistaRapida) {
+
+    public void addCustomer(Customer customer) {
+        customers.add(customer);
     }
 
-    public boolean getCustomer(int i) {
+    public void addCourt(Court court) {
+        courts.add(court);
     }
 
-    public boolean getCourt(int i) {
+    public void reserve(Reservation reservation){
+        this.reservations.add(reservation);
     }
 
-    public void reserve(Reservation reservation) {
+    public Customer getCustomer(int i) {
+        if ((i >= 0) && (i < customers.size())) {
+            return customers.get(i);
+        } else {
+            return null;
+        }
     }
 
-    public String countCustomer() {
+
+
+    public Court getCourt(int i) {
+        if ((i >= 0) && (i < courts.size())) {
+            return courts.get(i);
+        } else {
+            return null;
+        }
     }
 
-    public Iterable<? extends Reservation> getReservations() {
+
+    public int countCustomer() {
+        return this.customers.size();
     }
-}
+
+    public ArrayList<Reservation> getReservations() {
+        return new ArrayList<>(reservations);
+    }
+
+    public void remove(int index){
+        if (index >= 0 && index < customers.size()) {
+            this.customers.remove(index);
+        }
+    }
