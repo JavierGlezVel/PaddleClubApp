@@ -60,8 +60,7 @@ public class Reservation {
         this.court = court;
     }
 
-    public int price() {
-        //????????
-        return 0;
+    public ArrayList<Extra> price() {
+        return this.extra;
     }
 }
