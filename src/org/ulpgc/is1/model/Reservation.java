@@ -9,26 +9,14 @@ public class Reservation {
     public Date date;
     public Customer customer;
     public Court court;
-    public ArrayList<Extra>extra;
+    public ArrayList<Extra>extras;
 
     public Reservation(Customer customer, Court court) {
         this.id = NEXT_ID++;
         this.date = new Date();
         this.customer = customer;
         this.court = court;
-        this.extra = new ArrayList<Extra>();
-    }
-
-    public void addExtra(Extra extra) {
-        this.extra.add(extra);
-    }
-
-    public static int getNextId() {
-        return NEXT_ID;
-    }
-
-    public static void setNextId(int nextId) {
-        NEXT_ID = nextId;
+        this.extras = new ArrayList<>();
     }
 
     public int getId() {
@@ -36,13 +24,25 @@ public class Reservation {
     }
 
     public Date getDate() {
-        return date;
+        return new Date(date.getTime());
     }
-
     public void setDate(Date date) {
         this.date = date;
     }
+    public int price() {
+        int total = 0;
 
+        for (Extra extra: extras) {
+            total += extra.getPrice();
+        }
+
+        total += court.getPrice();
+
+        return total;
+    }
+    public void addExtra(Extra extra) {
+        extras.add(extra);
+    }
     public Customer getCustomer() {
         return customer;
     }
@@ -58,8 +58,26 @@ public class Reservation {
     public void setCourt(Court court) {
         this.court = court;
     }
+    @Override
+    public String toString() {
+        String result = "Reservation ID: " + id + "\n";
+        result += "Reservation Date: " + date + "\n";
+        result += "Customer Info:\n" + customer + "\n";
+        result += "Court Info: (\n" + court + "\n)\n";
 
-    public ArrayList<Extra> price() {
-        return this.extra;
+        if (this.extras.size() > 0){
+            result += "Extras: (\n";
+
+            for (Extra extra : extras) {
+                result += "    " + extra + "\n";
+            }
+
+            result += ")\n";
+        }
+
+        result += "Total Price: " + price() + "€\n";
+
+        return result;
     }
+
 }
