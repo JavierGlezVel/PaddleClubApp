@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Arreglo PaddleManager.">
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Arreglo Umpire.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Umpire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Umpire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Court.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/NIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/NIF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/model/Reservation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/javie/IdeaProjects/PaddleClubApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/IdeaProjects/PaddleClubApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ulpgc.is1.control.Main" />
@@ -111,7 +115,8 @@
       <workItem from="1697906619813" duration="51000" />
       <workItem from="1698070236293" duration="382000" />
       <workItem from="1698070735546" duration="3546000" />
-      <workItem from="1698074827967" duration="331000" />
+      <workItem from="1698074827967" duration="1058000" />
+      <workItem from="1698081486086" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit (Creación de Clases).">
       <option name="closed" value="true" />
@@ -249,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698074560885</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Arreglo Umpire.">
+      <option name="closed" value="true" />
+      <created>1698075331401</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698075331401</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +330,7 @@
     <MESSAGE value="Primera prueba final." />
     <MESSAGE value="Segunda prueba final." />
     <MESSAGE value="Arreglo PaddleManager." />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglo PaddleManager." />
+    <MESSAGE value="Arreglo Umpire." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo Umpire." />
   </component>
 </project>

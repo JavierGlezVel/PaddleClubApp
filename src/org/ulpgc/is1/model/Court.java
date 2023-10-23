@@ -1,6 +1,7 @@
 package org.ulpgc.is1.model;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Court {
     public String name;
@@ -35,5 +36,22 @@ public class Court {
 
     public void setType(CourtType type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre de la Pista: " + name + " - " + "Precio: " + price + "€ - " + "Tipo: " + type;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o){
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()){
+            return false;
+        }
+        Court court = (Court) o;
+        return price == court.price && type == court.type && Objects.equals(name, court.name);
     }
 }

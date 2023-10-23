@@ -1,5 +1,6 @@
 package org.ulpgc.is1.model;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Customer {
     public ArrayList<Reservation>reservation;
@@ -44,5 +45,22 @@ public class Customer {
 
     public ArrayList<Reservation> getReservation() {
         return reservation;
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + name + " - " + "Apellido: " + surname + " - " + "NIF: " + nif;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Customer customer = (Customer) o;
+        return (Objects.equals(name, customer.name)) && (Objects.equals(surname, customer.surname)) && (Objects.equals(nif, customer.nif));
     }
 }

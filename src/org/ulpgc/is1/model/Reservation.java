@@ -60,23 +60,20 @@ public class Reservation {
     }
     @Override
     public String toString() {
-        String result = "Reservation ID: " + id + "\n";
-        result += "Reservation Date: " + date + "\n";
-        result += "Customer Info:\n" + customer + "\n";
-        result += "Court Info: (\n" + court + "\n)\n";
+        String result = "·ID de la reserva: " + id + "\n";
+        result += "·Fecha de la reserva: " + date + "\n";
+        result += "·Info. del cliente: " + customer + "\n";
+        result += "·Info. de la pista: " + court + "\n";
 
         if (this.extras.size() > 0){
-            result += "Extras: (\n";
+            result += "·Extras: \n";
 
             for (Extra extra : extras) {
-                result += "    " + extra + "\n";
+                result += "-·-·-" + extra + "-·-·-" + "\n";
             }
-
-            result += ")\n";
+            result += "\n";
         }
-
-        result += "Total Price: " + price() + "€\n";
-
+        result += "<<<Precio Total: " + price() + "€>>>\n";
         return result;
     }
 
