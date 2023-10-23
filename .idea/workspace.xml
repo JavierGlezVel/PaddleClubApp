@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación de Costumer.">
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Implementación completa de Reservation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/IdeaProjects/prueba&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/javie/IdeaProjects/prueba",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,9 +83,11 @@
       <workItem from="1697630291089" duration="2936000" />
       <workItem from="1697646786560" duration="3558000" />
       <workItem from="1697706021033" duration="651000" />
-      <workItem from="1697734177935" duration="5696000" />
-      <workItem from="1697794889082" duration="84000" />
-      <workItem from="1697795205460" duration="604000" />
+      <workItem from="1697734177935" duration="6551000" />
+      <workItem from="1697789921795" duration="3213000" />
+      <workItem from="1697801192263" duration="9000" />
+      <workItem from="1697906391556" duration="85000" />
+      <workItem from="1697906619813" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit (Creación de Clases).">
       <option name="closed" value="true" />
@@ -167,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697736939941</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reservation, Extra, Court">
+      <option name="closed" value="true" />
+      <created>1697742139975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697742139975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implementación completa de Reservation">
+      <option name="closed" value="true" />
+      <created>1697791182850</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697791182850</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +217,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -217,6 +246,8 @@
     <MESSAGE value="Implementación de NIF." />
     <MESSAGE value="Implementación de isValid() en NIF." />
     <MESSAGE value="Implementación de Costumer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementación de Costumer." />
+    <MESSAGE value="Reservation, Extra, Court" />
+    <MESSAGE value="Implementación completa de Reservation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementación completa de Reservation" />
   </component>
 </project>

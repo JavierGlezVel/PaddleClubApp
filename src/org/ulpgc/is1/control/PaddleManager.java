@@ -27,7 +27,7 @@ public class PaddleManager {
         courts.add(court);
     }
 
-    public void reserve(Reservation reservation){
+    public void reserve(Reservation reservation) {
         this.reservations.add(reservation);
     }
 
@@ -38,7 +38,6 @@ public class PaddleManager {
             return null;
         }
     }
-
 
 
     public Court getCourt(int i) {
@@ -58,8 +57,9 @@ public class PaddleManager {
         return new ArrayList<>(reservations);
     }
 
-    public void remove(int index){
+    public void remove(int index) {
         if (index >= 0 && index < customers.size()) {
             this.customers.remove(index);
         }
     }
+}
