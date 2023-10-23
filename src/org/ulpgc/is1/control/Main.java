@@ -1,6 +1,24 @@
 package org.ulpgc.is1.control;
 import org.ulpgc.is1.model.*;
 public class Main {
+    public static void init (PaddleManager manager) {
+        //Creamos un miembro del club con NIF válido.
+        Customer cliente1 = new Member("Javier", "González", new NIF("45615233T"), 100, new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
+        //Creamos un cliente con NIF no válido.
+        Customer cliente2 = new Customer("Martina", "Giraudo", new NIF("12SD34TT4"));
+
+        //Los añadimos como clientes para una reserva,
+        manager.addCustomer(cliente1);
+        manager.addCustomer(cliente2);
+
+        //Creamos las pistas con sus respectivos precios
+        Court pistaRapida = new Court("Pista rapida", 30, CourtType.FastCourt);
+        Court pistaLenta = new Court("Pista lenta", 20, CourtType.SlowCourt);
+
+        //Las añadimos.
+        manager.addCourt(pistaRapida);
+        manager.addCourt(pistaLenta);
+    }
     public static void main(String[] args) {
         PaddleManager controlador = new PaddleManager();
         init(controlador);
@@ -29,25 +47,5 @@ public class Main {
         for (Reservation res: controlador.getReservations()){
             System.out.println(res);
         }
-
-    }
-
-    public static void init (PaddleManager manager) {
-        //Creamos un miembro del club con NIF válido.
-        Customer cliente1 = new Member("Javier", "González", new NIF("45615233T"), 100, new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
-        //Creamos un cliente con NIF no válido.
-        Customer cliente2 = new Customer("Martina", "Giraudo", new NIF("12SD34TT4"));
-
-        //Los añadimos como clientes para una reserva,
-        manager.addCustomer(cliente1);
-        manager.addCustomer(cliente2);
-
-        //Creamos las pistas con sus respectivos precios
-        Court pistaRapida = new Court("Pista rapida", 30, CourtType.FastCourt);
-        Court pistaLenta = new Court("Pista lenta", 20, CourtType.SlowCourt);
-
-        //Las añadimos.
-        manager.addCourt(pistaRapida);
-        manager.addCourt(pistaLenta);
     }
 }
