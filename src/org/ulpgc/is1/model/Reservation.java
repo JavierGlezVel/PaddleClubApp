@@ -11,10 +11,9 @@ public class Reservation {
     public Court court;
     public ArrayList<Extra>extra;
 
-    public Reservation(Court court, Customer customer, int id, int NEXT_ID, Date date) {
-        this.id = id;
-        this.NEXT_ID = NEXT_ID;
-        this.date = date;
+    public Reservation(Customer customer, Court court) {
+        this.id = NEXT_ID++;
+        this.date = new Date();
         this.customer = customer;
         this.court = court;
         this.extra = new ArrayList<Extra>();

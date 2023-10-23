@@ -57,9 +57,9 @@ public class PaddleManager {
         return new ArrayList<>(reservations);
     }
 
-    public void remove(int index) {
-        if (index >= 0 && index < customers.size()) {
-            this.customers.remove(index);
+    public void remove(int i) {
+        if (i >= 0 && i < customers.size()) {
+            this.customers.remove(i);
         }
     }
 }

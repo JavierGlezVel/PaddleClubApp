@@ -1,22 +1,10 @@
 package org.ulpgc.is1.control;
 import org.ulpgc.is1.model.*;
-import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
         PaddleManager manager = new PaddleManager();
-
-        Customer cliente1 = new Member("Carlos", "Almeida", new NIF("45397598K"), 100, new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
-        Customer cliente2 = new Customer("Pedro", "Domínguez", new NIF("12SD34TT4"));
-
-        manager.addCustomer(cliente1);
-        manager.addCustomer(cliente2);
-
-        Court pistaRapida = new Court("Pista rapida 1", 30, CourtType.FastCourt);
-        Court pistaLenta = new Court("Pista lenta 1", 20, CourtType.SlowCourt);
-
-        manager.addCourt(pistaRapida);
-        manager.addCourt(pistaLenta);
+        init(manager);
 
         System.out.println(manager.getCustomer(0) + "\n\n");
         System.out.println(manager.getCustomer(1) + "\n\n");
@@ -40,5 +28,19 @@ public class Main {
             System.out.println(res);
         }
 
+    }
+
+    public static void init (PaddleManager manager) {
+        Customer cliente1 = new Member("Carlos", "Almeida", new NIF("45397598K"), 100, new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
+        Customer cliente2 = new Customer("Pedro", "Domínguez", new NIF("12SD34TT4"));
+
+        manager.addCustomer(cliente1);
+        manager.addCustomer(cliente2);
+
+        Court pistaRapida = new Court("Pista rapida 1", 30, CourtType.FastCourt);
+        Court pistaLenta = new Court("Pista lenta 1", 20, CourtType.SlowCourt);
+
+        manager.addCourt(pistaRapida);
+        manager.addCourt(pistaLenta);
     }
 }
