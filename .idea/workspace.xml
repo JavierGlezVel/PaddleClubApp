@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Correcciones del main.">
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/PaddleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/PaddleManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Primera prueba final." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1697906391556" duration="85000" />
       <workItem from="1697906619813" duration="51000" />
       <workItem from="1698070236293" duration="382000" />
-      <workItem from="1698070735546" duration="841000" />
+      <workItem from="1698070735546" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit (Creación de Clases).">
       <option name="closed" value="true" />
@@ -204,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698071081877</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Primera prueba final.">
+      <option name="closed" value="true" />
+      <created>1698071845340</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698071845340</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +274,7 @@
     <MESSAGE value="Implementación completa de Reservation" />
     <MESSAGE value="Arreglo de PaddleManager." />
     <MESSAGE value="Correcciones del main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones del main." />
+    <MESSAGE value="Primera prueba final." />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera prueba final." />
   </component>
 </project>

@@ -16,13 +16,13 @@ public class Main {
 
         manager.reserve(reservation);
 
-        System.out.println("Existen actualmente " + manager.countCustomer() + " socios en el club. \n\n");
+        System.out.println("Existen actualmente " + manager.countCustomer() + " socio/os en el club. \n\n");
 
         manager.remove(1);
 
         System.out.println(manager.getCustomer(1) == null ? "No existe \n\n" : manager.getCustomer(1) + "\n\n");
 
-        System.out.println("Existen actualmente" + manager.countCustomer() + " socios en el club. \n\n");
+        System.out.println("Existen actualmente " + manager.countCustomer() + " socio/os en el club. \n\n");
 
         for (Reservation res: manager.getReservations()){
             System.out.println(res);
