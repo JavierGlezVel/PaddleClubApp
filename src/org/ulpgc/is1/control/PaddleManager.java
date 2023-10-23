@@ -32,7 +32,7 @@ public class PaddleManager {
     }
 
     public Customer getCustomer(int i) {
-        if ((i >= 0) && (i < customers.size())) {
+        if ((i >= 0) && i < (customers.size())) {
             return customers.get(i);
         } else {
             return null;
