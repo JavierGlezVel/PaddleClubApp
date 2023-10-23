@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Correcciones del main.">
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/ulpgc/is1/control/PaddleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ulpgc/is1/control/PaddleManager.java" afterDir="false" />
+    <list default="true" id="e47640a2-331f-45ce-924b-c3895372afa1" name="Changes" comment="Finalización del main y continuación del PaddleManager.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,6 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,13 +82,13 @@
       <workItem from="1697630291089" duration="2936000" />
       <workItem from="1697646786560" duration="3558000" />
       <workItem from="1697706021033" duration="651000" />
-      <workItem from="1697734177935" duration="6551000" />
-      <workItem from="1697789921795" duration="3213000" />
-      <workItem from="1697801192263" duration="9000" />
-      <workItem from="1697906391556" duration="85000" />
-      <workItem from="1697906619813" duration="51000" />
-      <workItem from="1698070236293" duration="382000" />
-      <workItem from="1698070735546" duration="841000" />
+      <workItem from="1697734177935" duration="5696000" />
+      <workItem from="1697794889082" duration="84000" />
+      <workItem from="1697795205460" duration="6011000" />
+      <workItem from="1697801501034" duration="91000" />
+      <workItem from="1698000341499" duration="1459000" />
+      <workItem from="1698011843332" duration="44000" />
+      <workItem from="1698070778112" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Commit (Creación de Clases).">
       <option name="closed" value="true" />
@@ -172,39 +170,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697736939941</updated>
     </task>
-    <task id="LOCAL-00011" summary="Reservation, Extra, Court">
+    <task id="LOCAL-00011" summary="Principio del comit.">
       <option name="closed" value="true" />
-      <created>1697742139975</created>
+      <created>1697795897617</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1697742139975</updated>
+      <updated>1697795897617</updated>
     </task>
-    <task id="LOCAL-00012" summary="Implementación completa de Reservation">
+    <task id="LOCAL-00012" summary="Finalización del main y principio del PaddleManager.">
       <option name="closed" value="true" />
-      <created>1697791182850</created>
+      <created>1697797312640</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1697791182850</updated>
+      <updated>1697797312640</updated>
     </task>
-    <task id="LOCAL-00013" summary="Arreglo de PaddleManager.">
+    <task id="LOCAL-00013" summary="Finalización del main y continuación del PaddleManager.">
       <option name="closed" value="true" />
-      <created>1698070455335</created>
+      <created>1697800771771</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1698070455336</updated>
+      <updated>1697800771771</updated>
     </task>
-    <task id="LOCAL-00014" summary="Correcciones del main.">
-      <option name="closed" value="true" />
-      <created>1698071081877</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1698071081877</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,17 +226,6 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
             </State>
           </value>
         </entry>
@@ -265,10 +244,9 @@
     <MESSAGE value="Implementación de NIF." />
     <MESSAGE value="Implementación de isValid() en NIF." />
     <MESSAGE value="Implementación de Costumer." />
-    <MESSAGE value="Reservation, Extra, Court" />
-    <MESSAGE value="Implementación completa de Reservation" />
-    <MESSAGE value="Arreglo de PaddleManager." />
-    <MESSAGE value="Correcciones del main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones del main." />
+    <MESSAGE value="Principio del comit." />
+    <MESSAGE value="Finalización del main y principio del PaddleManager." />
+    <MESSAGE value="Finalización del main y continuación del PaddleManager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalización del main y continuación del PaddleManager." />
   </component>
 </project>
