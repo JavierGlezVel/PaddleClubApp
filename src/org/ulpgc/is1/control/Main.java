@@ -6,7 +6,7 @@ public class Main {
 
         PaddleManager manager = new PaddleManager();
 
-        Customer cliente1 = new Member("Carlos", 100, new NIF("45397598K"), "Almeida", new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
+        Customer cliente1 = new Member("Carlos", "Almeida", new NIF("45397598K"), 100, new Address("Aguadulce", 40, 35004, "Las Palmas de Gran Canaria"));
         Customer cliente2 = new Customer("Pedro", "Domínguez", new NIF("12SD34TT4"));
 
         manager.addCustomer(cliente1);

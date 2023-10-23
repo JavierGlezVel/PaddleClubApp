@@ -4,9 +4,17 @@ public class Member extends Customer {
     public Address address;
     public int points;
 
-    public Member(Address address, int points, String name, String surname, NIF nif) {
+    public Member(String name, String surname, NIF nif, int points, Address address) {
         super(name, surname, nif);
         this.points = points;
         this.address = address;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public int getPoints() {
+        return points;
     }
 }
