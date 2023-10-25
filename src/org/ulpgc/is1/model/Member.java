@@ -1,8 +1,8 @@
 package org.ulpgc.is1.model;
 
 public class Member extends Customer {
-    public Address address;
-    public int points;
+    private Address address;
+    private int points;
 
     public Member(String name, String surname, NIF nif, int points, Address address) {
         super(name, surname, nif);

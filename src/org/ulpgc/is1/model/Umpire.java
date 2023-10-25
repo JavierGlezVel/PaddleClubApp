@@ -1,8 +1,8 @@
 package org.ulpgc.is1.model;
 
 public class Umpire extends Extra {
-    public String name;
-    public String surname;
+    private String name;
+    private String surname;
 
     public Umpire(String name, String surname, int price) {
         super(price);

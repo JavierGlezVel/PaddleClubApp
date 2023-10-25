@@ -6,10 +6,10 @@ import java.util.Date;
 public class Reservation {
     private static int NEXT_ID = 0;
     private final int id;
-    public Date date;
-    public Customer customer;
-    public Court court;
-    public ArrayList<Extra>extras;
+    private Date date;
+    private Customer customer;
+    private Court court;
+    private ArrayList<Extra>extras;
 
     public Reservation(Customer customer, Court court) {
         this.id = NEXT_ID++;

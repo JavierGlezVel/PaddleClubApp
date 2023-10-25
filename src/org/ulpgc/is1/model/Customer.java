@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Customer {
-    public ArrayList<Reservation>reservation;
-    public NIF nif;
-    public String name;
-    public String surname;
+    private ArrayList<Reservation>reservation;
+    private NIF nif;
+    private String name;
+    private String surname;
 
     public Customer(String name, String surname, NIF nif){
         this.name = name;

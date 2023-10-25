@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class Court {
-    public String name;
-    public int price;
-    public CourtType type;
+    private String name;
+    private int price;
+    private CourtType type;
 
     public Court(String name, int price, CourtType type){
         this.name = name;

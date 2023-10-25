@@ -1,10 +1,10 @@
 package org.ulpgc.is1.model;
 
 public class Address {
-    public String street;
-    public int number;
-    public int postalCode;
-    public String city;
+    private String street;
+    private int number;
+    private int postalCode;
+    private String city;
 
     public Address(String street, int number, int postalCode, String city) {
         this.street = street;

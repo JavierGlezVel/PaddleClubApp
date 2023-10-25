@@ -2,7 +2,7 @@ package org.ulpgc.is1.model;
 import java.util.regex.*;
 
 public class NIF {
-    public String number;
+    private String number;
     public NIF (String number) {
         if (isValid(number)) {
             this.number = number;
